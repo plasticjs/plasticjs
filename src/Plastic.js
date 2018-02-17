@@ -104,6 +104,8 @@ export default class Plastic
             } else {
                 sum += digit;
             }
+            
+            n++;
         }
 
         return sum % 10;
