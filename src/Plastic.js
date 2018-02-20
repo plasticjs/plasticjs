@@ -104,11 +104,11 @@ export default class Plastic
             } else {
                 sum += digit;
             }
-            
+
             n++;
         }
 
-        return sum % 10;
+        return sum % 10 === 0;
     }
 
     static _isValidLength(number, card_type)
